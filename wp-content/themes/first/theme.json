@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version" :2,
+    "settings": {
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {"slug": "id-white","color": "rgb(255,255,255)","name": "my white"}
+            ],
+            "background": true,
+            "text": true,
+            "link": true,
+            "custom": false,
+            "duotone": [
+                {"slug": "id-pink-sunset" , "colors": ["#11245e","#dc4379"] , "name": "my pink-duotone"}
+            ],
+            "defaultGradients": false,
+            "gradients": [
+                {
+                    "slug": "my gradient",
+                    "name": "gradient by me",
+                    "gradient": "linear-gradient(#a8ff78 , #78ffd6)"
+                }
+            ]
+        },
+        "blocks": {
+            "core/site-title": {
+                "color": {
+                    "defaultPalette": true,
+                    "link": false,
+                    "gradients": [],
+                    "customGradient": false
+                }
+            },
+            "core/cover": {
+                "color": {
+                    "duotone": [],
+                    "customDuotone": false
+                }
+            }
+        }
+    },
+    "styles": {
+        "color": {
+            "text" : "var(--wp--preset--color--u-gray-700)",
+            "background" : "var(--wp--preset--color--u-white)"
+        }
+    }
+}
