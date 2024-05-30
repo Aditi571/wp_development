@@ -1,0 +1,16 @@
+{
+    "apiVersion": 3,
+    "name": "chatbot/bot",
+    "title": "bot",
+    "category": "widgets",
+    "icon": "businesswoman",
+    "description": "A front-end of chatbot",
+    "keywords": [
+        "chatbot",
+        "bot",
+        "help"
+    ],
+    "version": "1.0.0",
+    "textdomain": "chatbot",
+    "editorScript": "file:./index.js"
+}
